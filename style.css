@@ -1,0 +1,46 @@
+/*!
+Theme Name: finders
+Theme URI: http://underscores.me/
+Author: Dusmatoff
+Author URI: http://dusmatoff.ru/
+Description: Finders Keepers wordpress theme
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: finders
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+finders is based on Underscores https://underscores.me/, (C) 2012-2017 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
+*/
+.products__slide img{
+    cursor: pointer;
+}
+.violet-bg__wrapper{
+    padding-bottom: 0px!important;
+}
+.frame-container{
+    height: 100vh;
+}
+.slider-img{
+	display: block;
+	margin: 0 auto;
+}
+#wpsl-search-btn{
+	border: 1px solid #0079BE;
+    background: #0079BE;
+    color: #fff;
+}
+.wpsl-search{
+	border-bottom: 2px solid #0079BE;
+}
+#wpsl-search-wrap .wpsl-input label{
+	font-family: 'LunchBoxSlab', sans-serif;
+    font-size: 23px;
+}
